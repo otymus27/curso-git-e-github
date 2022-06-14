@@ -1,0 +1,30 @@
+Fluxo Git
+- git init: inicializa o repositório Git(necessário)
+- git add: prepara os arquivos para serem commitados um por um.
+- git add . :adiciona todos os arquivos para serem commitados.
+- git commit -m "mensagem": faz o commit dos arquivos preparados.
+
+Configurações de identificação no GIT
+- git config --global user.name "fulanodetal" : configura o nome que irá aparecer no GITHUB
+- git config --global user.email "email@taltal" : configura o email que irá aparecer no GITHUB
+
+
+Comandos Gerais
+- git --version : mostra a versão atual do sistema, caso esteja instalado na máquina.
+- git status : mostra os arquivos que estão ou não preparados pra commit.
+- git rm --cached nomedoarquivo : remover arquivo para não ser commitado.
+- git branch -m master main : altera a branch local
+- git push -u origin main : cria uma nova branch main no repositório remoto.
+- git log : visualiza todos os commits realizados.
+
+Obs1: Caso tenha varios arquivos para commitar e tenha um arquivo em especifico que não quero enviar para GIT,
+é só usar .gitignore, ou seja, esse arquivo vai ignorar e não enviar todos arquivos listados dentro dele.
+
+
+Branches (como se fosse pequenas pastas independentes dentro do repositório, um multiverso de pastas)
+- git branch nomequalquer : cria uma branch
+- git branch : mostra todas as branches existentes
+- git checkout nomedabrach : seleciona uma branch
+
+- git merge nomedabranch: faz junção de duas branches ou integração de uma branch em outra
+
