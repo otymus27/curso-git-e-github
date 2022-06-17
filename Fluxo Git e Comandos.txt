@@ -28,3 +28,5 @@ Branches (como se fosse pequenas pastas independentes dentro do repositório, um
 
 - git merge nomedabranch: faz junção de duas branches ou integração de uma branch em outra
 
+- git clone linkdorepositorioremoto : faz um clone do repositório remoto para máquina local. Obs: pra isso 
+o repositório tem que ser público.
